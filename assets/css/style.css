@@ -1,0 +1,34 @@
+header {
+    background-color: #f37520;
+}
+header ,
+header > .container {
+    min-height: 64px;
+}
+li {
+    cursor: pointer;
+}
+li:hover {
+    border: 1px solid #909090;
+    border-radius: 5px;
+    padding: 2px;
+    display: inline;
+}
+
+section nav {
+    background-color: #ededed;
+    padding: 2rem;
+    
+}
+footer{
+    background-color: #454545;
+}
+
+@media (min-width: 576px){
+    section ,
+    section > .row ,
+    section > .row > [class^=col-],
+    section > .row  nav {
+        height: calc(100vh - 228px);
+    }
+}
